@@ -5,7 +5,7 @@
  */
 
 // Admin password - CHANGE THIS!
-define('ADMIN_PASSWORD', 'your-secure-password-here');
+define('ADMIN_PASSWORD', 'CONO6HoMp9gAjmAFiiyOk0LKN9Cl1oM8');
 
 // Installer URL
 define('INSTALLER_URL', 'https://vltrnone.github.io/CARBON6-council-system/');
