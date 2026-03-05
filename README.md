@@ -1,233 +1,315 @@
-# CARBON[6] Council System
+# CARBON[6] Council System - Complete Distribution Suite
 
-**Geometric AI Infrastructure for 475-Agent Coordination**
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)](SYSTEM_REQUIREMENTS.md)
-[![CARBON6](https://img.shields.io/badge/CARBON%5B6%5D-Council%20System-00C896)](https://thecarbon6.agency)
-
-## 🚀 Quick Install
-
-### macOS
-```bash
-curl -sSL https://raw.githubusercontent.com/VltrnOne/CARBON6-council-system/master/install_sovereign_manifold.sh | bash
-```
-
-### Linux (Ubuntu, Debian, Fedora, Arch, etc.)
-```bash
-curl -sSL https://raw.githubusercontent.com/VltrnOne/CARBON6-council-system/master/install_sovereign_manifold_linux.sh | bash
-```
-
-### Windows (PowerShell)
-```powershell
-irm https://raw.githubusercontent.com/VltrnOne/CARBON6-council-system/master/install_sovereign_manifold_windows.ps1 | iex
-```
-
-### Docker
-```bash
-docker pull carbon6/council-system:latest
-docker run -it carbon6/council-system:latest
-```
+**Production-ready installer with one-time code security system**
 
 ---
 
-## 📖 What Is This?
+## 🎯 WHAT IS THIS?
 
-**CARBON[6] Council System** is the world's first **production deployment** of Riemannian geometry for AI agent coordination—powering the CARBON[6] creator marketplace and Natural Language Development platform.
+Complete automated deployment system for the CARBON[6] Council System:
 
-### Core Capabilities
-- **475 agents** coordinated on Stiefel manifold St(50,475) with **zero interference**
-- **384D hyperbolic memory** for hierarchical knowledge (26x dimension reduction)
-- **Pareto optimization** for multi-objective agent selection (73% faster)
-- **Natural Language Development** interface (Build. Own. Govern.)
-
-### Competitive Advantage
-- **2-3 years ahead** of OpenAI, Anthropic, Google DeepMind
-- **12,934 lines** of battle-tested geometric code
-- **94.2% test coverage**, 347 unit tests
-- **Mathematical guarantees** (not approximations)
+1. **Beautiful Installer** - GitHub Pages hosted, auto-detects OS
+2. **One-Time Codes** - Secure, expiring access codes
+3. **Full Automation** - CLI tools for everything
+4. **REST API** - Programmatic access
+5. **Monitoring** - 24/7 uptime tracking
 
 ---
 
-## 📊 System Architecture
-
-```
-5 Production Systems:
-├── Differential Geometry Core       (2,894 lines)
-├── Pareto Manifold Optimizer        (2,190 lines)
-├── Manifold Agent Coordination      (2,320 lines)
-├── Semantic Memory Manifold         (2,450 lines)
-└── Quantum Hilbert Manifold         (3,080 lines)
-```
-
----
-
-## 💻 System Requirements
-
-**Minimum:**
-- CPU: 2 cores (any architecture)
-- RAM: 8 GB
-- Storage: 10 GB
-- Python 3.9+
-- Node.js 18+
-
-**No GPU required** (optional for 10x speedup)
-
-**Works on:**
-- ✅ macOS (10.15+)
-- ✅ Linux (all major distros)
-- ✅ Windows (10/11)
-- ✅ Docker
-- ✅ Cloud (AWS, GCP, Azure)
-- ✅ Raspberry Pi
-
----
-
-## 🧪 Verification
-
-After installation:
+## ⚡ QUICK START (30 SECONDS)
 
 ```bash
-# Test hyperbolic memory (384D)
-cd ~/sovereign-manifold/council
-source .venv/bin/activate  # or .\.venv\Scripts\Activate.ps1 on Windows
-python core/manifolds/hyperbolic.py
-
-# Expected: ✅ 384D hyperbolic space operational
+cd /Users/Morpheous/sovereign-manifold-distribution
+./carbon6-install-cli.sh
 ```
 
+**Select option 1** → Enter FTP credentials → **Done!**
+
+---
+
+## 📦 COMPLETE SYSTEM
+
+### 🎮 Master Control
+- **carbon6-install-cli.sh** - Unified CLI interface
+- One command to access everything
+
+### 🚀 Deployment Tools
+- **deploy-to-siteground.sh** - Automated FTP deployment
+- **test-deployment.sh** - Verification testing
+- **carbon6-install-system.tar.gz** - Complete package
+
+### 🔧 Management Tools
+- **manage-codes.sh** - CLI code manager
+- **monitor-system.sh** - System monitor
+
+### 🌐 Public Installer
+- **index.html** - GitHub Pages installer
+- Auto-detects OS, copies command
+- Live: https://vltrnone.github.io/CARBON6-council-system/
+
+### 🔒 One-Time Code System
+- **siteground-installer/** - PHP-based code generator
+- Admin: https://thecarbon6.agency/install
+- Generate codes: K7QW3M9P
+- Each works once, auto-expires
+
+### 🔌 API Access
+- **REST API** - Programmatic code generation
+- **Node.js Client** - carbon6-install-api-client.js
+- **Python Client** - carbon6_install_api.py
+- **Full Docs** - API-DOCUMENTATION.md
+
+---
+
+## 🎯 THREE WAYS TO USE
+
+### 1. Public Installer (Anyone)
+```
+https://vltrnone.github.io/CARBON6-council-system/
+```
+- Click "Install Now"
+- Command auto-copied
+- Paste in terminal
+
+### 2. One-Time Codes (Controlled)
+```
+https://thecarbon6.agency/install/K7QW3M9P
+```
+- Generate unique codes
+- Share with specific users
+- Works once, expires automatically
+
+### 3. API Integration (Automated)
+```javascript
+const api = new Carbon6InstallAPI('password');
+const result = await api.generateCode();
+```
+- Programmatic access
+- Automate onboarding
+- Integrate with systems
+
+---
+
+## 🚀 DEPLOYMENT
+
+### Option 1: Master CLI (Recommended)
 ```bash
-# Test Stiefel coordination (475 agents)
-python core/manifolds/stiefel.py
-
-# Expected: ✅ St(50,475) operational
+./carbon6-install-cli.sh
 ```
+Beautiful menu with all options.
 
----
-
-## 📚 Documentation
-
-- [**Integration Plan**](SOVEREIGN_MANIFOLD_INTEGRATION.md) (69KB) - Complete technical architecture
-- [**System Requirements**](SYSTEM_REQUIREMENTS.md) - Hardware/software specs
-- [**Global Deployment**](GLOBAL_DEPLOYMENT_GUIDE.md) - Universal installation guide
-- [**Installation Summary**](INSTALLATION_SUMMARY.md) - Quick reference
-
----
-
-## 🌍 Global Access
-
-This system is designed to work **anywhere**:
-
+### Option 2: Auto-Deploy Script
 ```bash
-# Tokyo, Japan
-curl -sSL https://raw.githubusercontent.com/YOUR-USERNAME/sovereign-manifold/main/install_sovereign_manifold_linux.sh | bash
+./deploy-to-siteground.sh
+```
+Direct FTP upload.
 
-# London, UK
-curl -sSL https://raw.githubusercontent.com/YOUR-USERNAME/sovereign-manifold/main/install_sovereign_manifold_linux.sh | bash
+### Option 3: Manual Upload
+Upload `siteground-installer/` to `/public_html/install/`
 
-# São Paulo, Brazil
-curl -sSL https://raw.githubusercontent.com/YOUR-USERNAME/sovereign-manifold/main/install_sovereign_manifold_linux.sh | bash
+---
+
+## 📊 FEATURES
+
+✅ **One-Time Use Codes** - Each code works once
+✅ **Auto-Expiration** - 1 hour to 30 days
+✅ **Beautiful UI** - CARBON[6] branded
+✅ **REST API** - Programmatic access
+✅ **CLI Tools** - Complete automation
+✅ **24/7 Monitoring** - Uptime tracking
+✅ **Multi-Language** - Node.js, Python, cURL
+✅ **SiteGround Optimized** - No additional services needed
+✅ **GitHub Pages** - Public installer
+
+---
+
+## 🎮 MASTER CLI MENU
+
+```
+═══ DEPLOYMENT ═══
+  1. Deploy to SiteGround
+  2. Test Deployment
+  3. Update Files
+
+═══ CODE MANAGEMENT ═══
+  4. Generate New Code
+  5. Check Code Status
+  6. View Analytics
+
+═══ MONITORING ═══
+  7. System Status
+  8. Start Monitor
+  9. View Logs
+
+═══ UTILITIES ═══
+  10. Backup Database
+  11. Documentation
+  12. Exit
 ```
 
-**Installation time:** 10-20 minutes on any platform
+---
+
+## 📚 DOCUMENTATION
+
+- **README.md** - This file (overview)
+- **API-DOCUMENTATION.md** - Complete API reference
+- **siteground-installer/SETUP.md** - Deployment guide
+- **siteground-installer/README.md** - Quick start
 
 ---
 
-## 🎯 Philosophy: Build. Own. Govern.
+## 🔗 LIVE URLS
 
-### Build
-Intelligent Business Architecture (IBA) before code
-- Clarity before implementation
-- Roadmap before release
-- Financial modeling before scale
+**Public Installer:**
+- https://vltrnone.github.io/CARBON6-council-system/
 
-### Own
-Natural Language Development leverage
-- Build systems via plain English
-- 475 AI agents orchestrated geometrically
-- 25x-60x time compression (months → days)
+**Admin Panel:**
+- https://thecarbon6.agency/install
 
-### Govern
-Geometric intelligence orchestration
-- Zero-interference agent coordination
-- Hierarchical knowledge embeddings
-- Pareto-optimal decision making
+**Generated Codes:**
+- https://thecarbon6.agency/install/XXXXXXXX
+
+**API Base:**
+- https://thecarbon6.agency/install/api
 
 ---
 
-## 💰 Three Paths
+## 🛠️ TECH STACK
 
-### 1. LEARN ($5,000)
-Natural Language Developer certification
-- Access to 475 agents
-- Production deployment capability
-- Capstone: Build system via NL only
+**Frontend:**
+- HTML5, CSS3, JavaScript
+- GitHub Pages hosting
+- OS auto-detection
 
-### 2. LICENSE ($50,000/year)
-Infrastructure licensing
-- Full manifold systems (12,934 lines)
-- White-label rights
-- Priority support
+**Backend:**
+- PHP 7.4+
+- SQLite database
+- SiteGround hosting
 
-### 3. PARTNER ($250K - $5M)
-Consortium equity
-- L5-BLACK access (highest clearance)
-- Co-ownership
-- Revenue participation (10-30%)
-- Dynasty model (1,200 years)
+**API:**
+- RESTful architecture
+- Bearer token auth
+- JSON responses
 
----
-
-## 🏆 What Makes This Unique
-
-### Production-Ready (Not Research)
-- OpenAI: Research papers only
-- Anthropic: Research papers only
-- Google: Research papers only
-- **This: 12,934 lines of tested production code**
-
-### Mathematical Guarantees
-- Geodesics **ARE** shortest paths (proven)
-- Stiefel frames **ARE** orthonormal (verified)
-- Hyperbolic embeddings **DO** preserve distances (tested)
-- Pareto solutions **ARE** non-dominated (guaranteed)
-
-### Platform Independent
-- Pure Python + NumPy
-- No proprietary dependencies
-- Works offline after installation
-- Zero vendor lock-in
+**CLI:**
+- Bash scripts
+- Automated deployment
+- Background monitoring
 
 ---
 
-## 🤝 Contributing
+## 🔒 SECURITY
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+✅ Password-protected admin
+✅ One-time use enforcement
+✅ Automatic expiration
+✅ HTTPS-only access
+✅ Database protection (.htaccess)
+✅ API authentication
+✅ No exposed code links
 
 ---
 
-## 📄 License
+## 📊 USAGE EXAMPLES
 
-MIT License - See [LICENSE](LICENSE) for details
+### Generate Code via CLI
+```bash
+./manage-codes.sh
+# Select: Generate New Code
+```
+
+### Generate Code via API (Node.js)
+```javascript
+const api = new Carbon6InstallAPI('password');
+const result = await api.generateCode({
+  purpose: 'Client Demo',
+  expiry: 1
+});
+console.log(result.url);
+```
+
+### Generate Code via API (Python)
+```python
+api = Carbon6InstallAPI('password')
+result = api.generate_code(purpose='Client Demo', expiry=1)
+print(result['url'])
+```
+
+### Monitor System
+```bash
+./monitor-system.sh
+# Runs continuously, checks every 5 minutes
+```
 
 ---
 
-## 🔗 Links
+## 💰 COST
 
-- **Website:** https://thecarbon6.agency
-- **Documentation:** [Full docs](SOVEREIGN_MANIFOLD_INTEGRATION.md)
-- **Support:** GitHub Issues
+**FREE** - Everything included:
+- SiteGround hosting (your existing plan)
+- GitHub Pages hosting (free)
+- No additional services
+- No monthly fees
+- Unlimited codes
+
+---
+
+## 🎯 STATUS
+
+✅ **Installer:** Live on GitHub Pages
+✅ **Code System:** Ready to deploy
+✅ **API:** Complete with clients
+✅ **CLI Tools:** Full automation
+✅ **Monitoring:** Background service
+✅ **Documentation:** Comprehensive
+
+---
+
+## 🚀 NEXT STEPS
+
+1. **Deploy:** `./carbon6-install-cli.sh` → Option 1
+2. **Test:** Option 2 after deployment
+3. **Generate:** Option 4 to create first code
+4. **Monitor:** Option 8 for 24/7 tracking
+
+---
+
+## 📞 SUPPORT
+
+- **Documentation:** This repository
+- **GitHub:** https://github.com/VltrnOne/CARBON6-council-system
+- **Issues:** GitHub Issues
+
+---
+
+## 🏆 WHAT MAKES THIS UNIQUE
+
+**Most installers:**
+- Public URL anyone can access
+- No usage tracking
+- No expiration
+- Basic or no UI
+
+**CARBON[6] System:**
+- ✅ One-time use codes
+- ✅ Automatic expiration
+- ✅ Beautiful branded UI
+- ✅ Full REST API
+- ✅ Complete automation
+- ✅ 24/7 monitoring
+- ✅ Multi-language clients
+- ✅ Purpose tracking
+- ✅ Analytics dashboard
 
 ---
 
 **Build. Own. Govern.**
 
-*CARBON[6] Council System — Infrastructure that compounds. Everywhere.*
+*Infrastructure that compounds. Everywhere.*
 
 ---
 
 **Version:** 1.0.0
 **Released:** March 2026
 **Status:** Production Ready
-**Powered by:** CARBON[6]
+**License:** MIT
