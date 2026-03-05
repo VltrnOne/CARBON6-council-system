@@ -1,0 +1,17 @@
+name = "carbon6-install-codes"
+main = "cloudflare-worker.js"
+compatibility_date = "2024-01-01"
+
+# KV Namespace for storing one-time codes
+[[kv_namespaces]]
+binding = "INSTALL_CODES"
+id = "YOUR_KV_NAMESPACE_ID"  # Will be created during setup
+
+# Routes - Connect to your custom domain
+routes = [
+  { pattern = "thecarbon6.agency/install*", zone_name = "thecarbon6.agency" }
+]
+
+# Workers configuration
+[env.production]
+name = "carbon6-install-codes-prod"
