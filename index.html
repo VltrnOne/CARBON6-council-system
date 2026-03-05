@@ -198,7 +198,6 @@
 
         <div id="command-box" class="command-box">
             <div id="install-command"></div>
-            <button class="copy-btn" onclick="copyCommand()">Copy to Clipboard</button>
         </div>
 
         <div class="features">
@@ -262,20 +261,35 @@
             }
         }
 
-        // Show install command
+        // Show install command (hidden for security)
         function showInstallCommand() {
             const os = detectOS();
             const command = getInstallCommand(os);
-            const commandBox = document.getElementById('command-box');
-            const installCommand = document.getElementById('install-command');
 
-            installCommand.innerHTML = `
-                <strong>Copy and paste this command into your terminal:</strong><br><br>
-                <code>${command}</code>
-            `;
+            // Copy to clipboard immediately without showing command
+            navigator.clipboard.writeText(command).then(() => {
+                const commandBox = document.getElementById('command-box');
+                const installCommand = document.getElementById('install-command');
 
-            commandBox.classList.add('active');
-            commandBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                installCommand.innerHTML = `
+                    <strong>✓ Install command copied to clipboard!</strong><br><br>
+                    <p style="color: #888; font-size: 14px;">Paste this command into your terminal to install.</p>
+                `;
+
+                commandBox.classList.add('active');
+                commandBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+                // Change button text
+                const btn = document.querySelector('.install-button');
+                const originalText = btn.textContent;
+                btn.textContent = '✓ Copied to Clipboard';
+                btn.style.background = 'linear-gradient(135deg, #00C853 0%, #00A843 100%)';
+
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = 'linear-gradient(135deg, #0066FF 0%, #0052CC 100%)';
+                }, 3000);
+            });
         }
 
         // Copy command to clipboard
