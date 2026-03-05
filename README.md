@@ -1,39 +1,40 @@
-# Sovereign Manifold Systems
+# CARBON[6] Council System
 
-**12,934 lines of production-ready geometric AI infrastructure**
+**Geometric AI Infrastructure for 475-Agent Coordination**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)](SYSTEM_REQUIREMENTS.md)
+[![CARBON6](https://img.shields.io/badge/CARBON%5B6%5D-Council%20System-00C896)](https://carbon6.io)
 
 ## 🚀 Quick Install
 
 ### macOS
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR-USERNAME/sovereign-manifold/main/install_sovereign_manifold.sh | bash
+curl -sSL https://raw.githubusercontent.com/VltrnOne/CARBON6-council-system/master/install_sovereign_manifold.sh | bash
 ```
 
 ### Linux (Ubuntu, Debian, Fedora, Arch, etc.)
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR-USERNAME/sovereign-manifold/main/install_sovereign_manifold_linux.sh | bash
+curl -sSL https://raw.githubusercontent.com/VltrnOne/CARBON6-council-system/master/install_sovereign_manifold_linux.sh | bash
 ```
 
 ### Windows (PowerShell)
 ```powershell
-irm https://raw.githubusercontent.com/YOUR-USERNAME/sovereign-manifold/main/install_sovereign_manifold_windows.ps1 | iex
+irm https://raw.githubusercontent.com/VltrnOne/CARBON6-council-system/master/install_sovereign_manifold_windows.ps1 | iex
 ```
 
 ### Docker
 ```bash
-docker pull sovereignmanifold/council:latest
-docker run -it sovereignmanifold/council:latest
+docker pull carbon6/council-system:latest
+docker run -it carbon6/council-system:latest
 ```
 
 ---
 
 ## 📖 What Is This?
 
-Sovereign Manifold Systems is the world's first **production deployment** of Riemannian geometry for AI agent coordination.
+**CARBON[6] Council System** is the world's first **production deployment** of Riemannian geometry for AI agent coordination—powering the CARBON[6] creator marketplace and Natural Language Development platform.
 
 ### Core Capabilities
 - **475 agents** coordinated on Stiefel manifold St(50,475) with **zero interference**
@@ -222,10 +223,11 @@ MIT License - See [LICENSE](LICENSE) for details
 
 **Build. Own. Govern.**
 
-*Infrastructure that compounds. Everywhere.*
+*CARBON[6] Council System — Infrastructure that compounds. Everywhere.*
 
 ---
 
 **Version:** 1.0.0
 **Released:** March 2026
 **Status:** Production Ready
+**Powered by:** CARBON[6]
