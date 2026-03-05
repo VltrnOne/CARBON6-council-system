@@ -1,0 +1,23 @@
+# CARBON[6] Install Code System - URL Rewriting
+
+RewriteEngine On
+RewriteBase /install/
+
+# Admin interface
+RewriteRule ^$ index.php [L]
+
+# Code redirect: /install/XXXXXXXX
+RewriteRule ^([A-Z0-9]{8})$ redirect.php [L]
+
+# Security: Prevent direct access to config
+<Files "config.php">
+    Require all denied
+</Files>
+
+# Security: Prevent database download
+<Files "codes.db">
+    Require all denied
+</Files>
+
+# Security: Disable directory listing
+Options -Indexes
