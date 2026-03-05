@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)](SYSTEM_REQUIREMENTS.md)
-[![CARBON6](https://img.shields.io/badge/CARBON%5B6%5D-Council%20System-00C896)](https://carbon6.io)
+[![CARBON6](https://img.shields.io/badge/CARBON%5B6%5D-Council%20System-00C896)](https://thecarbon6.agency)
 
 ## 🚀 Quick Install
 
@@ -215,7 +215,7 @@ MIT License - See [LICENSE](LICENSE) for details
 
 ## 🔗 Links
 
-- **Website:** https://carbon6.io
+- **Website:** https://thecarbon6.agency
 - **Documentation:** [Full docs](SOVEREIGN_MANIFOLD_INTEGRATION.md)
 - **Support:** GitHub Issues
 
