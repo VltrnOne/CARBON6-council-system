@@ -1,0 +1,32 @@
+name: Deploy carbon-monitor to SiteGround
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'carbon-monitor/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Deploy via FTP to SiteGround
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./carbon-monitor/
+          server-dir: /public_html/carbon-monitor/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/README.md
+            **/QUICK_START.md
+            **/*.plist
+            **/*.service
+            **/setup-heartbeat.sh
+            **/telemetry-client.sh
