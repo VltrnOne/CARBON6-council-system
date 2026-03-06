@@ -1,0 +1,27 @@
+# CARBON[6] Heartbeat Service
+# Sends periodic heartbeats to monitoring system
+#
+# Installation (Linux systemd):
+#   sudo cp carbon6-heartbeat.service /etc/systemd/system/
+#   sudo systemctl enable carbon6-heartbeat.service
+#   sudo systemctl start carbon6-heartbeat.service
+#
+# Installation (macOS LaunchAgent):
+#   cp carbon6-heartbeat.plist ~/Library/LaunchAgents/
+#   launchctl load ~/Library/LaunchAgents/carbon6-heartbeat.plist
+
+[Unit]
+Description=CARBON[6] Monitoring Heartbeat Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'while true; do /usr/local/bin/carbon6-telemetry heartbeat; sleep 300; done'
+Restart=always
+RestartSec=60
+StandardOutput=null
+StandardError=null
+
+[Install]
+WantedBy=multi-user.target

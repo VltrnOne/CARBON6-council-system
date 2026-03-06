@@ -1,0 +1,26 @@
+# CARBON[6] Monitoring System - Security
+
+# Protect database files
+<FilesMatch "\.(db|sqlite|sqlite3)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Protect configuration files
+<FilesMatch "\.(md|txt)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Allow PHP execution
+<FilesMatch "\.(php)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Enable CORS for telemetry API
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "POST, GET, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
